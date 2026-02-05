@@ -7,7 +7,7 @@ import java.sql.DriverManager;
 
 public class Database {
     static Statement stmt;
-      public Database() {
+    public Database() {
         String url = "jdbc:postgresql://10.232.86.204:5432/gendul";
         String user = "postgres";
         String password = "postgres";
